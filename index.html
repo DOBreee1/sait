@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кандидати на Премію Дарвіна</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            background-color: #993349;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .logo img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .main-picture img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .main-text {
+            flex: 1;
+            padding: 20px;
+            background-color: #fff;
+            color: #333333;
+        }
+
+        .menu {
+            flex-basis: 30%;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-left: 1px solid #ddd;
+        }
+
+        footer {
+            background-color: #993349;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-bottom: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            color: #993349;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .main-text {
+                flex-basis: 100%;
+            }
+            .menu {
+                flex-basis: 100%;
+                border-left: none;
+                border-top: 1px solid #ddd;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+   <div class="wrapper">
+    <header>
+        <div class="header">
+        <div class="logo"> 
+            <p>Кандидати на <b>Премію Дарвіна</b><i>Офіційний сайт</i></p>
+            <picture>
+                <img src="darvin.png" width="150" height="200" alt="логотип Премії Дарвіна">
+            </picture>
+        </div>
+        <div class="contacts">
+            <p><a href="tel:+380975555501">+38 (097) 555-55-01</a><i>Працюємо 24/7</i></p>
+        </div>
+        </div>
+    </header>
+    <main>
+        <picture class="main-picture">
+            <img src="darvin2.png" width="600" height="200" alt="Ілюстрація еволюції за принципом вибору природи">
+        </picture>
+    <div class="main">
+        <section class="main-text">
+            <h1>Про кандидатів на Премію Дарвіна</h1>
+                <p>Премія Дарвіна — це нагорода, яка вручається особам, які під час свого життя вирішили сприяти "відбору природи", тобто намагаються відіграти роль природного відбору, зазвичай роблячи надзвичайно необдумані або небезпечні речі.</p>
+                <p>Ці кандидати, будучи творцями власної невдачі або навіть смерті, заслуговують на визнання своєї спадкоємності Дарвіна, відзначаючи їх "вклад" у збереження сильніших у популяції. Ось декілька найяскравіших кандидатів на Премію Дарвіна цього року.</p>
+                <p>Будьте готові дізнатися про найцікавіші випадки самодостатньої "еволюції"!</p>
+            
+        </section>
+        <aside class="menu">
+            <p>Категорії кандидатів</p>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Сміливі експерименти</a>
+                    </li>
+                    <li>
+                        <a href="#">Необдумані вчинки</a>
+                    </li>
+                    <li>
+                        <a href="#">Неймовірні аварії</a>
+                    </li>
+                    <li>
+                        <a href="#">Пригоди з тваринами</a>
+                    </li>
+                    <li>
+                        <a href="#">Екстремальні випробування</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+    </div>
+</main>
+<footer>
+    <p class="footer">© Кандидати на Премію Дарвіна 2024.</p>
+</footer>
+</div>
+</body>
+</html>
